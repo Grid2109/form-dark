@@ -13,7 +13,7 @@ body * {
 
 .main-login{
     width: 100vw;
-    height: 100vh;
+    height: 115vh;
     background: #201b2c;
     display: flex;
     justify-content: center;
@@ -113,6 +113,7 @@ body * {
 }
 
 @media only screen and (max-width: 950px) {
+
     .card-login {
         width: 85%;
     }
@@ -123,6 +124,7 @@ body * {
 }
 
 @media only screen and (max-width: 600px) {
+    
  .main-login {
     flex-direction: column;
  }
@@ -147,5 +149,17 @@ body * {
 
  .card-login {
     width: 90%;
+ }
+
+ @media only screen and (max-width: 390px) {
+    .main-login {
+        height:125vh;
+    }
+ }
+
+ @media only screen and (max-width: 320px) {
+    .main-login {
+        height: 140vh;
+    }
  }
 }
