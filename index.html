@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Formulário-Dark</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-login">
-        <div class="left-login">
-            <h1>Faça o login <br>E entre para o nosso time</h1>
-            <img class="left-login-animation" src="./img/login-animate (1).svg" alt="">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-               <h1>LOGIN</h1>
-               <div class="textField">
-                <label for="usuario">Usuário</label>
-                <input type="text" name="usuario" placeholder="Usuário">
-               </div>
-               <div class="textField">
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Senha">
-               </div>
-           
-            <button class="btn-login">Login</button>
-            </div>
+      <div class="box-key">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="ph-duotone ph-sun"></i>
+            <i class="ph-duotone ph-moon"></i>
+            <div class="ball"></div>
+        </label>
+      </div>
 
-            
-                
+      <div class="left-login">
+        <h1>Faça o login <br />E entre para o nosso time</h1>
+        <img
+          class="left-login-animation"
+          src="./img/login-animate (1).svg"
+          alt=""
+        />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1>LOGIN</h1>
+          <div class="textField">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Usuário" />
+          </div>
+          <div class="textField">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Senha" />
+          </div>
+
+          <button class="btn-login">Login</button>
         </div>
+      </div>
     </div>
-</body>
+  </body>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script><!--site phosphoroicons/getstarted/github/ícones de fósforo-->
+  <script src="script.js" defer></script>
 </html>
