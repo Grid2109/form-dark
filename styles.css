@@ -219,5 +219,17 @@ body {
     .main-login {
         height: 140vh;
     }
+    .box-key {
+        position: absolute;
+        display: flex;
+        top: 15px;
+        right: 20px;
+    }
+
+    .left-login-animation{
+        width: 80vw;
+        font-size: 3vw;
+    }
+   
  }
 }
